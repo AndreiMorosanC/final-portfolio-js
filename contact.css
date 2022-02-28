@@ -1,0 +1,144 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(55, 60, 75);
+    border: 0;
+}
+
+.PrincipalC{
+display: grid;
+grid-template-columns: 1fr  ;
+grid-template-areas: "divNE" "divS" "divM";
+
+}
+
+
+#divNE{
+    grid-area: "divNE";
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "div1 div2",
+    ;
+}
+
+
+
+#div1{
+grid-area: "div1";
+display: grid;
+grid-template-rows: 1fr;
+grid-template-areas: "nameH" "nameI";
+}
+#div2{
+grid-area: "div2";
+}
+
+#nameH{
+color: rgb(212, 119, 119);
+width: 78.7%;
+grid-area: "nameH";
+display: flex;
+justify-content: center;
+}
+#nameI{
+background-color: rgb(226, 226, 226);
+width: 95%;
+grid-area: "nameI";
+height: 3vh;
+}
+#emailH{
+color: rgb(212, 119, 119);
+width: 98%;
+grid-area: "emailH";
+display: flex;
+justify-content: center;
+}
+#emailI{
+background-color: rgb(226, 226, 226);
+width: 95.5%;
+grid-area: "emailI";
+display: flex;
+justify-content:end;
+height: 3vh;
+}
+#containerP{
+    display: flex;
+    justify-content: center;
+}
+#container{
+    width: 50%;
+    
+}
+
+#divS{
+    margin-top: 20px;
+    grid-area: "divS";
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "subjectH" "subjectI";
+    
+}
+#subjectH{
+    color: rgb(212, 119, 119);
+    width: 98%;
+    grid-area: "subjectH";
+    display: flex;
+    justify-content: center;
+}
+#subjectI{
+    background-color: rgb(226, 226, 226);
+    width: 98%;
+    grid-area: "subjectI";
+    height: 3vh;
+}
+
+#divM{
+    margin-top: 20px;
+    grid-area: "divM";
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "messageH" "messageI";
+}
+
+
+#messageH{
+    color: rgb(212, 119, 119);
+    width: 98%;
+    grid-area: "messageH";
+    display: flex;
+    justify-content: center;
+    
+}
+#messageI{
+    background-color: rgb(226, 226, 226);
+    width: 98%;
+    grid-area: "messageI";
+}
+
+
+#btn{
+    background-color: rgb(212, 119, 119);
+    color: rgb(226, 226, 226);
+    display: flex;
+    width: 97.9%;
+    justify-content: center;
+    border: 0;
+    margin-top: 20px;
+    height: 4.5vh;
+    font-size: 4vh;
+    
+    
+}
+
+#btn:active{
+    box-shadow: inset 0 0 10px gray;
+}
+.size{
+    font-size: 4vh;
+}
+
+#spaceIN{
+    height: 10vh;
+}

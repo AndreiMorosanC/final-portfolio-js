@@ -1,0 +1,78 @@
+.space{
+    display: flex;
+    height: 35vh;
+    
+    
+}
+
+#TP{
+    height: 30vh;
+    transform: translateX(120px);
+    width: 60vw;
+}
+
+#TP h2{
+    color: rgb(226, 226, 226);
+    font-size: 15vh;
+}
+#nameProjects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#TTDname{
+    display: flex;
+    justify-content:center;
+    transform: translateX(50px);
+    color: rgb(212, 119, 119);
+    font-size: 4vh;
+}
+#RPSname{
+    display: flex;
+    justify-content:center;
+    transform: translateX(50px);
+    color: rgb(212, 119, 119);
+    font-size: 4vh;
+}
+#MRname{
+    display: flex;
+    justify-content:center;
+    transform: translateX(50px);
+    color: rgb(212, 119, 119);
+    font-size: 4vh;
+}
+
+#TC{
+    height: 30vh;
+    transform: translateX(115px);
+    width: 60vw;
+}
+#TC h2{
+    color: rgb(226, 226, 226);
+    font-size: 15vh;
+    text-transform: uppercase;
+}
+#TS{
+    height: 5vh;
+    margin-left: 50px;
+    width: 60vw;
+}
+#TS h2{
+    color: rgb(226, 226, 226);
+    font-size: 4vh;
+    text-transform: uppercase;
+}
+#socialmedia{
+    margin-left: 100px;
+    
+
+}
+#listsocial{
+    list-style: none;
+    
+    font-size: 2vh;
+}
+#listasocial li{
+    margin-top: 20px;
+    
+}

@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background-color: rgb(55, 60, 75);
+}
+.projects{
+    
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "TTD RPS MR"
+    "1 2 MR";
+    grid-gap: 10px;
+    
+}
+
+#TTD{
+    grid-area: "TTD";
+
+    
+}
+#RPS{
+    grid-area: "RPS";
+    
+}
+#MR{
+    grid-area: "MR";
+    
+    
+    
+}
+
+.images{
+    width: 35vw;
+    
+    
+}
+#images{
+    width: 26vw;
+}
+
+.bntP{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    border: 0;
+    background-color: rgb(212, 119, 119);
+    color: rgb(226, 226, 226);
+    font-size: 2vh;
+    
+    
+}
+button:active{
+    box-shadow: inset 0 0 20px rgb(48, 48, 48);
+}
+
+#btnlast{
+    width:100%;
+}
+a{
+    text-decoration: none;
+}
